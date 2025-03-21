@@ -1,0 +1,24 @@
+name: application-designer
+version: 'dev'
+display_version: 'dev'
+prerelease: true
+title: Конструктор приложений
+asciidoc:
+  attributes:
+    pl-req: 'версии 6.1'
+    bo-req: 'версии 6.1'
+    dm-req: 'версии 6.1'
+    wf-req: 'версии 6.1'
+    to-req: 'версии 6.1'
+    win-req: 'версии 6.1'
+    ws-req: 'версии 6.1'
+    appd: Конструктор приложений
+    of-appd: Конструктора приложений
+
+nav:
+- modules/ROOT/nav.adoc
+- modules/common/common.adoc
+- modules/admin/admin.adoc
+- modules/user/user.adoc
+
+#  start_page: ROOT:index.adoc
